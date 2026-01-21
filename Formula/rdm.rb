@@ -1,22 +1,22 @@
 class Rdm < Formula
   desc "Agent-first Redmine CLI with markdown-optimized output"
   homepage "https://github.com/richard-gyiko/redmine-cli"
-  version "0.1.2"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.1.2/rdm-aarch64-apple-darwin.tar.gz"
-      sha256 "a12c21c0921fe60c2c511f63422ce6bda6f136a8109dd96f506f49a662aa28e7"
+      url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.2.0/rdm-aarch64-apple-darwin.tar.gz"
+      sha256 "0135cc64809e4431b517db57b7cad837a822f9d0f5a635712e910642655e6b88"
     else
-      url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.1.2/rdm-x86_64-apple-darwin.tar.gz"
-      sha256 "c9c6cb70bd7f1483bcb63f1e587b4ecf3f8d9c0c9cc6f1e6916d1cd13cee204a"
+      url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.2.0/rdm-x86_64-apple-darwin.tar.gz"
+      sha256 "e1485b64e9274651b33b6ee3fc2bc6cf6fb29247fd77068204f9f100cf990670"
     end
   end
 
   on_linux do
-    url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.1.2/rdm-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "2f6a8b5fb9f238555fd901201e199eb12cb9c37ff696c635fa65bc0760c83918"
+    url "https://github.com/richard-gyiko/redmine-cli/releases/download/v0.2.0/rdm-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "2b082e262fd46921d79b1731af55cfa4faeae53cceffd3db62e0da9356a3626c"
   end
 
   def install
