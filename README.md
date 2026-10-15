@@ -10,7 +10,6 @@ brew tap richard-gyiko/tap
 
 # Install tools
 brew install aa    # Artificial Analysis CLI
-brew install rdm   # Redmine CLI
 ```
 
 ## Available packages
@@ -18,4 +17,5 @@ brew install rdm   # Redmine CLI
 | Package | macOS | Linux | Description |
 |---------|-------|-------|-------------|
 | [aa](https://github.com/richard-gyiko/artificial-analysis-cli) | ✅ | ✅ | CLI for querying AI model benchmarks from Artificial Analysis |
-| [rdm](https://github.com/richard-gyiko/redmine-cli) | ✅ | ✅ | Agent-first Redmine CLI with markdown-optimized output |
+
+> `rdm` moved to [whizystems/tap](https://github.com/whizystems/homebrew-tap). Existing installs migrate automatically.
